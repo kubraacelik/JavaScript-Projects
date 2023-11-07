@@ -13,3 +13,6 @@ In the gasStation project, performs the operation at the gas station by specifyi
 ![Ekran Görüntüsü (297)](https://github.com/kubraacelik/JavaScript-Mini-Projects/assets/101054783/1f7b1564-06a5-4c1f-8ff7-31935dbe2816) ![Ekran Görüntüsü (301)](https://github.com/kubraacelik/JavaScript-Mini-Projects/assets/101054783/92b5a39c-cd52-4a7f-903d-ff7f26d0b327) ![Ekran Görüntüsü (302)](https://github.com/kubraacelik/JavaScript-Mini-Projects/assets/101054783/ea08f625-06b5-45f4-b4bf-177ac7167105)![Ekran Görüntüsü (303)](https://github.com/kubraacelik/JavaScript-Mini-Projects/assets/101054783/7f099932-7833-4bc1-ab35-212d95373cd8)
 ## SwitchCase
 In the SwitchCase project, a small project to find days using switch case.
+## atmApp
+I made a small ATM project where we can make transactions using Balance Viewing, Withdrawing Money, Deposit Money, Exit options.
+![Ekran Görüntüsü (304)](https://github.com/kubraacelik/JavaScript-Mini-Projects/assets/101054783/47af5776-ab5b-4599-b4bf-91475395d790)
