@@ -1,4 +1,5 @@
 # JavaScript-Projects
+CheckItOut
 In the CheckItOut project, the name and tckn were requested to be entered completely. if and else warned if not entered.
 ![Ekran Görüntüsü (285)](https://github.com/kubraacelik/JavaScript-Mini-Projects/assets/101054783/997ebea1-0324-473d-94e8-4f3bdd78f998)
 ![Ekran Görüntüsü (288)](https://github.com/kubraacelik/JavaScript-Mini-Projects/assets/101054783/dddeca40-d1bd-4787-90bb-ce1d0f0cc1d6)
