@@ -4,15 +4,18 @@ let height = Number(prompt("Enter your height in meterst : "));
 let bodyMassIndex = weight / (height * 2);
 
 if (bodyMassIndex < 18.5) {
-  console.log("You are under the ideal weight " + bodyMassIndex);
+  alert("You are under the ideal weight " + Math.floor(bodyMassIndex));
 } else if (18.5 < bodyMassIndex < 24.9) {
-  console.log("You are at an ideal weight " + bodyMassIndex);
+  alert("You are at an ideal weight " + Math.floor(bodyMassIndex));
 } else if (25.9 < bodyMassIndex < 29.9) {
-  console.log("You are above the ideal weight " + bodyMassIndex);
+  alert("You are above the ideal weight " + Math.floor(bodyMassIndex));
 } else if (30 < bodyMassIndex < 39.9) {
-  console.log("You are far above the ideal weight (obese) " + bodyMassIndex);
+  alert(
+    "You are far above the ideal weight (obese) " + Math.floor(bodyMassIndex)
+  );
 } else {
-  console.log(
-    "You are far above the ideal weight (morbidly obese) " + bodyMassIndex
+  alert(
+    "You are far above the ideal weight (morbidly obese) " +
+      Math.floor(bodyMassIndex)
   );
 }
