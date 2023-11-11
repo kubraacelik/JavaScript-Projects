@@ -1,9 +1,20 @@
+let tableData = [];
+
 // Formdaki veriler al
 function addContact() {
+  var id = Math.random() * Math.random() * 100;
   var name = document.getElementById("nameInput").value;
   var surname = document.getElementById("surnameInput").value;
   var age = document.getElementById("ageInput").value;
   var email = document.getElementById("emailInput").value;
+  let data = {
+    id: id,
+    name: name,
+    surname: surname,
+    age: age,
+    email: email,
+  };
+  tableData.push(data);
 
   // Yeni bir tablo satırı oluştur
   var table = document.getElementById("table").getElementsByTagName("tbody")[0];
@@ -13,6 +24,7 @@ function addContact() {
   var cell3 = newRow.insertCell(2);
   var cell4 = newRow.insertCell(3);
   var cell5 = newRow.insertCell(4);
+  var cell6 = newRow.insertCell(5);
 
   // Hücrelere verileri ekle
   cell1.innerHTML = name;
@@ -21,6 +33,7 @@ function addContact() {
   cell4.innerHTML = email;
   cell5.innerHTML =
     '<button onclick="updateRow(this)">Güncelle</button> <button onclick="deleteRow(this)">Sil</button>';
+  cell6.innerHTML = id;
 
   // Formu sıfırla
   document.getElementById("form").reset();
@@ -38,6 +51,7 @@ function updateRow(button) {
   document.getElementById("surnameInput").value = surname;
   document.getElementById("ageInput").value = age;
   document.getElementById("emailInput").value = email;
+  document.getElementById("idInput").value = id;
 
   // Satırın tıklanabilirliği
   row.addEventListener("click", function () {
@@ -45,6 +59,7 @@ function updateRow(button) {
     cells[1].innerHTML = document.getElementById("surnameInput").value;
     cells[2].innerHTML = document.getElementById("ageInput").value;
     cells[3].innerHTML = document.getElementById("emailInput").value;
+    cells[4].innerHTML = document.getElementById("idInput").value;
   });
 }
 function deleteRow(button) {
