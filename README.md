@@ -18,7 +18,8 @@ I made a small ATM project where we can make transactions using Balance Viewing,
 ![Ekran Görüntüsü (304)](https://github.com/kubraacelik/JavaScript-Mini-Projects/assets/101054783/47af5776-ab5b-4599-b4bf-91475395d790)
 ## Case 1
 Users can enter and add contact information, update existing information or delete contacts from the list. This project simulates a simple database, allowing users to edit and manage contact information.
-![Ekran Görüntüsü (309)](https://github.com/kubraacelik/JavaScript-Mini-Projects/assets/101054783/a72ad739-d369-45b2-b8bb-53cc9b5fd2e8)
+![Ekran Görüntüsü (323)](https://github.com/kubraacelik/JavaScript-Mini-Projects/assets/101054783/cab595ab-9f34-4f30-93b5-54c522f857a5)
+
 ## tytCalculation
 In this project, it provides the correct and incorrect numbers of Turkish, Mathematics, Social and Science courses, the school score and the TYT score.
 ![Ekran Görüntüsü (321)](https://github.com/kubraacelik/JavaScript-Mini-Projects/assets/101054783/23ab7909-02aa-4b45-9fe9-632690551fd0)
