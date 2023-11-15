@@ -1,12 +1,13 @@
 let tableData = [];
 
-// Formdaki veriler al
+// Formdaki verileri al
 function addContact() {
   var id = Math.random() * Math.random() * 100;
   var name = document.getElementById("nameInput").value;
   var surname = document.getElementById("surnameInput").value;
   var age = document.getElementById("ageInput").value;
   var email = document.getElementById("emailInput").value;
+
   let data = {
     id: id,
     name: name,
@@ -14,6 +15,7 @@ function addContact() {
     age: age,
     email: email,
   };
+
   tableData.push(data);
 
   // Yeni bir tablo satırı oluştur
@@ -27,40 +29,43 @@ function addContact() {
   var cell6 = newRow.insertCell(5);
 
   // Hücrelere verileri ekle
-  cell1.innerHTML = name;
-  cell2.innerHTML = surname;
-  cell3.innerHTML = age;
-  cell4.innerHTML = email;
-  cell5.innerHTML =
+  cell1.innerHTML = id;
+  cell2.innerHTML = name;
+  cell3.innerHTML = surname;
+  cell4.innerHTML = age;
+  cell5.innerHTML = email;
+  cell6.innerHTML =
     '<button onclick="updateRow(this)">Güncelle</button> <button onclick="deleteRow(this)">Sil</button>';
-  cell6.innerHTML = id;
 
   // Formu sıfırla
   document.getElementById("form").reset();
 }
+
 function updateRow(button) {
   var row = button.parentNode.parentNode;
   var cells = row.getElementsByTagName("td");
 
-  var name = cells[0].innerHTML;
-  var surname = cells[1].innerHTML;
-  var age = cells[2].innerHTML;
-  var email = cells[3].innerHTML;
+  var id = cells[0].innerHTML;
+  var name = cells[1].innerHTML;
+  var surname = cells[2].innerHTML;
+  var age = cells[3].innerHTML;
+  var email = cells[4].innerHTML;
+
+  var nameInput = document.getElementById("nameInput").value;
+  var surnameInput = document.getElementById("surnameInput").value;
+  var ageInput = document.getElementById("ageInput").value;
+  var emailInput = document.getElementById("emailInput").value;
 
   document.getElementById("nameInput").value = name;
   document.getElementById("surnameInput").value = surname;
   document.getElementById("ageInput").value = age;
   document.getElementById("emailInput").value = email;
-  document.getElementById("idInput").value = id;
+  // document.getElementById("idInput").value = id;
 
-  // Satırın tıklanabilirliği
-  row.addEventListener("click", function () {
-    cells[0].innerHTML = document.getElementById("nameInput").value;
-    cells[1].innerHTML = document.getElementById("surnameInput").value;
-    cells[2].innerHTML = document.getElementById("ageInput").value;
-    cells[3].innerHTML = document.getElementById("emailInput").value;
-    cells[4].innerHTML = document.getElementById("idInput").value;
-  });
+  cells[1].innerHTML = nameInput;
+  cells[2].innerHTML = surnameInput;
+  cells[3].innerHTML = ageInput;
+  cells[4].innerHTML = emailInput;
 }
 function deleteRow(button) {
   var row = button.parentNode.parentNode;

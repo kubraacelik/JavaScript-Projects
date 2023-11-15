@@ -11,8 +11,8 @@
 <body>
     <form id="form">
         <div class="form1">
-            <label for="id">Id:</label>
-            <input type="text" id="idInput" required>
+            <!-- <label for="id">Id:</label>
+            <input type="text" id="idInput" required> -->
 
             <label for="name">Ad:</label>
             <input type="text" id="nameInput" required>
@@ -29,12 +29,15 @@
             <label for="email">E-mail:</label>
             <input type="email" id="emailInput" required>
 
+            <input type="hidden" id="idInput">
+
             <button id="btnAdd" type="button" onclick="addContact()">Ekle</button>
         </div>
     </form>
     <table id="table">
         <thead>
             <tr>
+                <th>Id</th>
                 <th>Ad</th>
                 <th>Soyad</th>
                 <th>Yaş</th>
@@ -43,10 +46,11 @@
             </tr>
         </thead>
         <tbody>
-            <td></td>
         </tbody>
     </table>
+
     <script src="app.js"></script>
+
 </body>
 
 </html>
