@@ -1,13 +1,14 @@
 let tableData = [];
 
-// Formdaki verileri al
+// Formdaki verileri alan fonksiyon
 function addContact() {
-  var id = Math.random() * Math.random() * 100;
+  var id = Math.floor(Math.random() * 10000) + 1;
   var name = document.getElementById("nameInput").value;
   var surname = document.getElementById("surnameInput").value;
   var age = document.getElementById("ageInput").value;
   var email = document.getElementById("emailInput").value;
 
+  //verileri dizi içinde tutmam lazım
   let data = {
     id: id,
     name: name,
@@ -67,7 +68,51 @@ function updateRow(button) {
   cells[3].innerHTML = ageInput;
   cells[4].innerHTML = emailInput;
 }
+
+//Satır silme fonksiyonu
 function deleteRow(button) {
   var row = button.parentNode.parentNode;
   row.remove();
+}
+
+// Etiketlere çift tıklayınca tabloyu güncelleyen fonksiyon
+function renderTable() {
+  var table = document.getElementById("table").getElementsByTagName("tbody")[0];
+  table.innerHTML = "";
+
+  tableData.forEach(function (data) {
+    var newRow = table.insertRow(table.rows.length);
+    var cell1 = newRow.insertCell(0);
+    var cell2 = newRow.insertCell(1);
+    var cell3 = newRow.insertCell(2);
+    var cell4 = newRow.insertCell(3);
+    var cell5 = newRow.insertCell(4);
+    var cell6 = newRow.insertCell(5);
+
+    cell1.innerHTML = data.id;
+    cell2.innerHTML = data.name;
+    cell3.innerHTML = data.surname;
+    cell4.innerHTML = data.age;
+    cell5.innerHTML = data.email;
+    cell6.innerHTML =
+      '<button onclick="updateRow(this)">Güncelle</button> <button onclick="deleteRow(this)">Ekle</button>';
+  });
+}
+
+// Adları sıralama fonksiyonu
+function sortTable(column) {
+  tableData.sort((a, b) => {
+    if (column === "name") {
+      return a.name.localeCompare(b.name);
+    } else if (column === "surname") {
+      return a.surname.localeCompare(b.surname);
+    } else if (column === "age") {
+      return a.age - b.age;
+    } else if (column === "email") {
+      return a.email.localeCompare(b.email);
+    } else {
+      return a[column] - b[column];
+    }
+  });
+  renderTable();
 }

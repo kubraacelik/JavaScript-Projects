@@ -11,8 +11,6 @@
 <body>
     <form id="form">
         <div class="form1">
-            <!-- <label for="id">Id:</label>
-            <input type="text" id="idInput" required> -->
 
             <label for="name">Ad:</label>
             <input type="text" id="nameInput" required>
@@ -34,14 +32,15 @@
             <button id="btnAdd" type="button" onclick="addContact()">Ekle</button>
         </div>
     </form>
+
     <table id="table">
         <thead>
             <tr>
                 <th>Id</th>
-                <th>Ad</th>
-                <th>Soyad</th>
-                <th>Yaş</th>
-                <th>E-mail</th>
+                <th onclick="sortTable('name')">Ad</th>
+                <th onclick="sortTable('surname')">Soyad</th>
+                <th onclick="sortTable('age')">Yaş</th>
+                <th onclick="sortTable('email')">E-mail</th>
                 <th>İşlemler</th>
             </tr>
         </thead>
