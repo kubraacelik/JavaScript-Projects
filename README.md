@@ -23,3 +23,9 @@ Users can enter and add contact information, update existing information or dele
 ## tytCalculation
 In this project, it provides the correct and incorrect numbers of Turkish, Mathematics, Social and Science courses, the school score and the TYT score.
 ![Ekran Görüntüsü (321)](https://github.com/kubraacelik/JavaScript-Mini-Projects/assets/101054783/23ab7909-02aa-4b45-9fe9-632690551fd0)
+
+## numbersOfLetter
+In this project, we found the desired number of letters according to the written text.
+![Ekran Görüntüsü (324)](https://github.com/kubraacelik/JavaScript-Mini-Projects/assets/101054783/7cf87a9f-5998-4265-8d61-bb7bcc939227)
+![Ekran Görüntüsü (325)](https://github.com/kubraacelik/JavaScript-Mini-Projects/assets/101054783/0d3908f5-9fba-4de0-aacd-7d1cf99c8eff)
+![Ekran Görüntüsü (326)](https://github.com/kubraacelik/JavaScript-Mini-Projects/assets/101054783/1e4f0517-5a3b-45b2-af1a-a282689dbcb2)
