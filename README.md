@@ -29,3 +29,8 @@ In this project, we found the desired number of letters according to the written
 ![Ekran Görüntüsü (324)](https://github.com/kubraacelik/JavaScript-Mini-Projects/assets/101054783/7cf87a9f-5998-4265-8d61-bb7bcc939227)
 ![Ekran Görüntüsü (325)](https://github.com/kubraacelik/JavaScript-Mini-Projects/assets/101054783/0d3908f5-9fba-4de0-aacd-7d1cf99c8eff)
 ![Ekran Görüntüsü (326)](https://github.com/kubraacelik/JavaScript-Mini-Projects/assets/101054783/1e4f0517-5a3b-45b2-af1a-a282689dbcb2)
+
+## productSearchApp
+In this project, example of a search engine that brings up a product according to the product entered
+![Ekran Görüntüsü (347)](https://github.com/kubraacelik/JavaScript-Mini-Projects/assets/101054783/f17eff39-5b0b-42c8-a830-0f31b64402c1)
+![Ekran Görüntüsü (348)](https://github.com/kubraacelik/JavaScript-Mini-Projects/assets/101054783/8d455c86-d7ab-46f3-b52e-9808d8f93ac4)
