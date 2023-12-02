@@ -34,3 +34,9 @@ In this project, we found the desired number of letters according to the written
 In this project, example of a search engine that brings up a product according to the product entered
 ![Ekran Görüntüsü (347)](https://github.com/kubraacelik/JavaScript-Mini-Projects/assets/101054783/f17eff39-5b0b-42c8-a830-0f31b64402c1)
 ![Ekran Görüntüsü (348)](https://github.com/kubraacelik/JavaScript-Mini-Projects/assets/101054783/8d455c86-d7ab-46f3-b52e-9808d8f93ac4)
+
+## bookFinderApp
+In this project, we defined our books in the library. We wrote the shelf where the books are located. The user will type the name of the book they want and the console will show which shelf it is on.
+![Ekran Görüntüsü (349)](https://github.com/kubraacelik/JavaScript-Mini-Projects/assets/101054783/bff8b541-83cb-46ff-88b1-3d787cc15e97)
+![Ekran Görüntüsü (350)](https://github.com/kubraacelik/JavaScript-Mini-Projects/assets/101054783/f3a6c9ab-5336-4b8f-9313-c708c6a3d048)
+![Ekran Görüntüsü (351)](https://github.com/kubraacelik/JavaScript-Mini-Projects/assets/101054783/49c8bfb6-3e8c-442a-aa89-3c75821d7337)
