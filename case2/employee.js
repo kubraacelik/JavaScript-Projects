@@ -5,16 +5,14 @@ function addContact() {
   var id = Math.floor(Math.random() * 10000) + 1;
   var name = document.getElementById("nameInput").value;
   var surname = document.getElementById("surnameInput").value;
-  var age = document.getElementById("ageInput").value;
-  var email = document.getElementById("emailInput").value;
+  var sales = document.getElementById("salesAmount").value;
 
   //verileri dizi içinde tutmam lazım
   let data = {
     id: id,
     name: name,
     surname: surname,
-    age: age,
-    email: email,
+    sales: sales,
   };
 
   tableData.push(data);
@@ -27,15 +25,13 @@ function addContact() {
   var cell3 = newRow.insertCell(2);
   var cell4 = newRow.insertCell(3);
   var cell5 = newRow.insertCell(4);
-  var cell6 = newRow.insertCell(5);
 
   // Hücrelere verileri ekle
   cell1.innerHTML = id;
   cell2.innerHTML = name;
   cell3.innerHTML = surname;
-  cell4.innerHTML = age;
-  cell5.innerHTML = email;
-  cell6.innerHTML =
+  cell4.innerHTML = sales;
+  cell5.innerHTML =
     '<button onclick="updateRow(this)">Güncelle</button> <button onclick="deleteRow(this)">Sil</button>';
 
   // Formu sıfırla
@@ -49,24 +45,20 @@ function updateRow(button) {
   var id = cells[0].innerHTML;
   var name = cells[1].innerHTML;
   var surname = cells[2].innerHTML;
-  var age = cells[3].innerHTML;
-  var email = cells[4].innerHTML;
+  var sales = cells[3].innerHTML;
 
   var nameInput = document.getElementById("nameInput").value;
   var surnameInput = document.getElementById("surnameInput").value;
-  var ageInput = document.getElementById("ageInput").value;
-  var emailInput = document.getElementById("emailInput").value;
+  var salesAmount = document.getElementById("salesAmount").value;
 
   document.getElementById("nameInput").value = name;
   document.getElementById("surnameInput").value = surname;
-  document.getElementById("ageInput").value = age;
-  document.getElementById("emailInput").value = email;
+  document.getElementById("salesAmount").value = sales;
   // document.getElementById("idInput").value = id;
 
   cells[1].innerHTML = nameInput;
   cells[2].innerHTML = surnameInput;
-  cells[3].innerHTML = ageInput;
-  cells[4].innerHTML = emailInput;
+  cells[3].innerHTML = salesAmount;
 }
 
 //Satır silme fonksiyonu
@@ -87,14 +79,12 @@ function renderTable() {
     var cell3 = newRow.insertCell(2);
     var cell4 = newRow.insertCell(3);
     var cell5 = newRow.insertCell(4);
-    var cell6 = newRow.insertCell(5);
 
     cell1.innerHTML = data.id;
     cell2.innerHTML = data.name;
     cell3.innerHTML = data.surname;
-    cell4.innerHTML = data.age;
-    cell5.innerHTML = data.email;
-    cell6.innerHTML =
+    cell4.innerHTML = data.sales;
+    cell5.innerHTML =
       '<button onclick="updateRow(this)">Güncelle</button> <button onclick="deleteRow(this)">Ekle</button>';
   });
 }
@@ -106,13 +96,17 @@ function sortTable(column) {
       return a.name.localeCompare(b.name);
     } else if (column === "surname") {
       return a.surname.localeCompare(b.surname);
-    } else if (column === "age") {
-      return a.age - b.age;
-    } else if (column === "email") {
-      return a.email.localeCompare(b.email);
+    } else if (column === "sales") {
+      return a.sales.localeCompare(b.sales);
     } else {
       return a[column] - b[column];
     }
   });
   renderTable();
+}
+
+//logout butonu
+
+function logOut() {
+  window.open("index.html", "_self");
 }

@@ -4,32 +4,27 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Case 1</title>
+    <title>Employee</title>
     <link rel="stylesheet" href="employee.css">
 </head>
 
 <body>
+    <button onclick="logOut()" id="btn2">Log Out</button>
     <form id="form">
         <div class="form1">
 
-            <label for="name">Ad:</label>
+            <label for="name">Müşteri Adı:</label>
             <input type="text" id="nameInput" required>
 
-
-            <label for="surname">Soyad:</label>
+            <label for="surname">Müşteri Soyadı:</label>
             <input type="text" id="surnameInput" required>
 
-
-            <label for="age">Yaş:</label>
-            <input type="number" id="ageInput" required>
-
-
-            <label for="email">E-mail:</label>
-            <input type="email" id="emailInput" required>
+            <label for="sales">Satış Tutarı:</label>
+            <input type="number" id="salesAmount" required>
 
             <input type="hidden" id="idInput">
 
-            <button id="btnAdd" type="button" onclick="addContact()">Ekle</button>
+            <button id="btnAdd" type="button" onclick="addContact()">Kaydet</button>
         </div>
     </form>
 
@@ -39,9 +34,8 @@
                 <th>Id</th>
                 <th onclick="sortTable('name')">Ad</th>
                 <th onclick="sortTable('surname')">Soyad</th>
-                <th onclick="sortTable('age')">Yaş</th>
-                <th onclick="sortTable('email')">E-mail</th>
-                <th>İşlemler</th>
+                <th onclick="sortTable('sales')">Satış Tutarı</th>
+                <th>Satış Durumu</th>
             </tr>
         </thead>
         <tbody>

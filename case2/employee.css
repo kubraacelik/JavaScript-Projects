@@ -28,19 +28,26 @@ input {
 button {
   width: 80px;
   padding: 10px 15px;
-  background-color: #e27575;
+  background-color: #44506a;
   color: white;
   border: none;
   cursor: pointer;
 }
 
+#btn2 {
+  position: relative;
+  top: 20px;
+  left: 1300px;
+  width: 150px;
+  height: 50px;
+}
 form div #btnAdd {
   display: block;
   margin-left: 110px;
 }
 
 button:hover {
-  background-color: #e78282;
+  background-color: #44506a;
 }
 
 table {
@@ -49,7 +56,7 @@ table {
 }
 
 thead tr th {
-  background-color: #e27575;
+  background-color: #44506a;
   color: #fff;
 }
 th,
