@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Case 1</title>
+    <link rel="stylesheet" href="employee.css">
+</head>
+
+<body>
+    <form id="form">
+        <div class="form1">
+
+            <label for="name">Ad:</label>
+            <input type="text" id="nameInput" required>
+
+
+            <label for="surname">Soyad:</label>
+            <input type="text" id="surnameInput" required>
+
+
+            <label for="age">Yaş:</label>
+            <input type="number" id="ageInput" required>
+
+
+            <label for="email">E-mail:</label>
+            <input type="email" id="emailInput" required>
+
+            <input type="hidden" id="idInput">
+
+            <button id="btnAdd" type="button" onclick="addContact()">Ekle</button>
+        </div>
+    </form>
+
+    <table id="table">
+        <thead>
+            <tr>
+                <th>Id</th>
+                <th onclick="sortTable('name')">Ad</th>
+                <th onclick="sortTable('surname')">Soyad</th>
+                <th onclick="sortTable('age')">Yaş</th>
+                <th onclick="sortTable('email')">E-mail</th>
+                <th>İşlemler</th>
+            </tr>
+        </thead>
+        <tbody>
+        </tbody>
+    </table>
+
+    <script src="employee.js"></script>
+
+</body>
+
+</html>
