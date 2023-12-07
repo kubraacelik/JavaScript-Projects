@@ -5,10 +5,41 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Manager</title>
+    <link rel="stylesheet" href="manager.css">
 </head>
 
 <body>
-    Manager!!!!
+    <p>Cihan Tamyıldırım</p>
+    <table id="table">
+        <thead>
+            <tr>
+                <th>Id</th>
+                <th onclick="sortTable('name')">Ad</th>
+                <th onclick="sortTable('surname')">Soyad</th>
+                <th onclick="sortTable('sales')">Satış Tutarı</th>
+                <th>Onayla-Reddet Butonu</th>
+            </tr>
+        </thead>
+        <tbody>
+        </tbody>
+    </table>
+    <hr>
+    <p>Kübra Çelik</p>
+    <table id="table">
+        <thead>
+            <tr>
+                <th>Id</th>
+                <th onclick="sortTable('name')">Ad</th>
+                <th onclick="sortTable('surname')">Soyad</th>
+                <th onclick="sortTable('sales')">Satış Tutarı</th>
+                <th>Onayla-Reddet Butonu</th>
+            </tr>
+        </thead>
+        <tbody>
+        </tbody>
+    </table>
+
+    <script src="manager.js"></script>
 </body>
 
 </html>

@@ -1,29 +1,16 @@
 let users = [
   {
+    userId: 1,
     userName: "kübra",
     password: "çelik",
   },
   {
+    userId: 2,
     userName: "cihan",
     password: "tamyıldırım",
   },
-
   {
-    userName: "kayra",
-    password: "güngör",
-  },
-  {
-    userName: "ezgi",
-    password: "dolma",
-  },
-  {
-    userName: "murat",
-    password: "durmuş",
-  },
-];
-
-let manager = [
-  {
+    userId: 3,
     userName: "erkan",
     password: "çetiner",
   },

@@ -2,10 +2,10 @@ let tableData = [];
 
 // Formdaki verileri alan fonksiyon
 function addContact() {
-  var id = Math.floor(Math.random() * 10000) + 1;
-  var name = document.getElementById("nameInput").value;
-  var surname = document.getElementById("surnameInput").value;
-  var sales = document.getElementById("salesAmount").value;
+  let id = Math.floor(Math.random() * 10000) + 1;
+  let name = document.getElementById("nameInput").value;
+  let surname = document.getElementById("surnameInput").value;
+  let sales = document.getElementById("salesAmount").value;
 
   //verileri dizi içinde tutmam lazım
   let data = {
@@ -38,6 +38,7 @@ function addContact() {
   document.getElementById("form").reset();
 }
 
+//Satır güncelleme fonksiyonu
 function updateRow(button) {
   var row = button.parentNode.parentNode;
   var cells = row.getElementsByTagName("td");
