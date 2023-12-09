@@ -6,6 +6,15 @@ In this project, when you enter Todo on the Todo List page, it is listed at the 
  ### We can filter the todo we want to search.
 ![Ekran Görüntüsü (360)](https://github.com/kubraacelik/JavaScript-Mini-Projects/assets/101054783/31d00598-6f9e-45fa-9eab-defc87de2679)
 
+## Case 1
+Users can enter and add contact information, update existing information or delete contacts from the list. This project simulates a simple database, allowing users to edit and manage contact information.
+![Ekran Görüntüsü (323)](https://github.com/kubraacelik/JavaScript-Mini-Projects/assets/101054783/cab595ab-9f34-4f30-93b5-54c522f857a5)
+
+## bookFinderApp
+In this project, we defined our books in the library. We wrote the shelf where the books are located. The user will type the name of the book they want and the console will show which shelf it is on.
+![Ekran Görüntüsü (349)](https://github.com/kubraacelik/JavaScript-Mini-Projects/assets/101054783/bff8b541-83cb-46ff-88b1-3d787cc15e97)
+![Ekran Görüntüsü (350)](https://github.com/kubraacelik/JavaScript-Mini-Projects/assets/101054783/f3a6c9ab-5336-4b8f-9313-c708c6a3d048)
+![Ekran Görüntüsü (351)](https://github.com/kubraacelik/JavaScript-Mini-Projects/assets/101054783/49c8bfb6-3e8c-442a-aa89-3c75821d7337)
 
 ## CheckItOut
 In the CheckItOut project, the name and tckn were requested to be entered completely. if and else warned if not entered.
@@ -24,9 +33,6 @@ In the SwitchCase project, a small project to find days using switch case.
 ## atmApp
 I made a small ATM project where we can make transactions using Balance Viewing, Withdrawing Money, Deposit Money, Exit options.
 ![Ekran Görüntüsü (304)](https://github.com/kubraacelik/JavaScript-Mini-Projects/assets/101054783/47af5776-ab5b-4599-b4bf-91475395d790)
-## Case 1
-Users can enter and add contact information, update existing information or delete contacts from the list. This project simulates a simple database, allowing users to edit and manage contact information.
-![Ekran Görüntüsü (323)](https://github.com/kubraacelik/JavaScript-Mini-Projects/assets/101054783/cab595ab-9f34-4f30-93b5-54c522f857a5)
 
 ## tytCalculation
 In this project, it provides the correct and incorrect numbers of Turkish, Mathematics, Social and Science courses, the school score and the TYT score.
@@ -42,9 +48,3 @@ In this project, we found the desired number of letters according to the written
 In this project, example of a search engine that brings up a product according to the product entered
 ![Ekran Görüntüsü (347)](https://github.com/kubraacelik/JavaScript-Mini-Projects/assets/101054783/f17eff39-5b0b-42c8-a830-0f31b64402c1)
 ![Ekran Görüntüsü (348)](https://github.com/kubraacelik/JavaScript-Mini-Projects/assets/101054783/8d455c86-d7ab-46f3-b52e-9808d8f93ac4)
-
-## bookFinderApp
-In this project, we defined our books in the library. We wrote the shelf where the books are located. The user will type the name of the book they want and the console will show which shelf it is on.
-![Ekran Görüntüsü (349)](https://github.com/kubraacelik/JavaScript-Mini-Projects/assets/101054783/bff8b541-83cb-46ff-88b1-3d787cc15e97)
-![Ekran Görüntüsü (350)](https://github.com/kubraacelik/JavaScript-Mini-Projects/assets/101054783/f3a6c9ab-5336-4b8f-9313-c708c6a3d048)
-![Ekran Görüntüsü (351)](https://github.com/kubraacelik/JavaScript-Mini-Projects/assets/101054783/49c8bfb6-3e8c-442a-aa89-3c75821d7337)
