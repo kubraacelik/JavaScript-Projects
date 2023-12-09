@@ -10,9 +10,67 @@ let todos = [];
 
 runEvents();
 
-//form'da submit yapınca addTodo fonksiyonum çalışsın
 function runEvents() {
+  //form'da submit yapınca addTodo fonksiyonum çalışsın
   form.addEventListener("submit", addTodo);
+  //Sayfa yüklendiğinde pageLoaded metodu çalışsın
+  document.addEventListener("DOMContentLoaded", pageLoaded);
+  //Çarpı işaretine basınca ToDo silinsin
+  secondCardBody.addEventListener("click", removeToDoToUI);
+  //Tüm Todoları temizle butonuna basınca hepsi gitsin
+  clearButton.addEventListener("click", allToDosEverywhere);
+}
+
+//Local Storage'de olan verilerim ekrana gelsin
+function pageLoaded() {
+  checkTodosFromStorage();
+  todos.forEach(function (todo) {
+    addTodoUI(todo);
+  });
+}
+
+//Tüm Todo'ları temizler
+function allToDosEverywhere() {
+  //Ekrandan siler
+  const todoListesi = document.querySelectorAll(".list-group-item");
+  if (todoListesi.length > 0) {
+    todoListesi.forEach(function (todo) {
+      todo.remove();
+    });
+
+    //Storage'den siler
+    todos = [];
+    localStorage.setItem("todos", JSON.stringify(todos));
+    showAlert("success", "Başarılı bir şekilde silindi");
+  } else {
+    showAlert("warning", "Silmek için en az bir ToDo gereklidir!");
+  }
+}
+
+//İstediğim todo'yu silmek için
+function removeToDoToUI(e) {
+  //Ekrandan silmek için
+  if (e.target.className === "fa fa-remove") {
+    const todo = e.target.parentElement.parentElement;
+    todo.remove();
+
+    //Storage'den silmek için
+    removeToDoToStorage(todo.textContent);
+
+    showAlert("success", "Todo başarılı bir şekilde silindi");
+  }
+}
+
+//Storage'den değer siler
+function removeToDoToStorage(removeToDo) {
+  checkTodosFromStorage();
+  todos.forEach(function (todo, index) {
+    if (removeToDo === todo) {
+      //index numarasını belirleyip 1 değer siler
+      todos.splice(index, 1);
+    }
+  });
+  localStorage.setItem("todos", JSON.stringify(todos));
 }
 
 function addTodo(e) {
@@ -24,7 +82,7 @@ function addTodo(e) {
     //arayüze ekleme
     addTodoUI(inputText);
     addToDoStorage(inputText);
-    showAlert("success", "ToDo başarılı bir şekilde eklendi");
+    showAlert("success", "Todo başarılı bir şekilde eklendi");
   }
   e.preventDefault(); //başka sayfaya yönlendirmesin
 }
