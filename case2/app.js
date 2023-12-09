@@ -1,19 +1,23 @@
 //LOGIN KISMI
 let users = [
   {
+    userId: 1,
     userName: "kübra",
     password: "çelik",
   },
   {
+    userId: 2,
     userName: "cihan",
     password: "tamyıldırım",
   },
   {
+    userId: 3,
     userName: "erkan",
     password: "çetiner",
   },
 ];
 
+let currentUser = JSON.parse(localStorage.getItem("currentUser"));
 let enteruserName;
 let enterPassword;
 let i;
@@ -24,6 +28,12 @@ function checkItOut() {
 
   for (i of users) {
     if (i.userName == enteruserName && i.password == enterPassword) {
+      currentUser = {
+        id: i.userId,
+        name: i.userName,
+        password: i.password,
+      };
+      localStorage.setItem("currentUser", JSON.stringify(currentUser));
       return true;
     }
   }
@@ -46,9 +56,10 @@ let tableData = [];
 let userId;
 
 function getUserId(enteruserName) {
-  if ((enteruserName = "kübra")) {
+  console.log(enteruserName);
+  if (enteruserName == "kübra") {
     return 1;
-  } else if ((enteruserName = "cihan")) {
+  } else if (enteruserName == "cihan") {
     return 2;
   } else {
     return 3;
@@ -69,24 +80,26 @@ function saveDataToStorage() {
 
 function updateTable() {
   var table = document.getElementById("table").getElementsByTagName("tbody")[0];
+
   // Tabloyu temizle
   table.innerHTML = "";
 
   // Her bir veriyi tabloya ekle
   for (let i = 0; i < tableData.length; i++) {
-    var newRow = table.insertRow(table.rows.length);
-    var cell1 = newRow.insertCell(0);
-    var cell2 = newRow.insertCell(1);
-    var cell3 = newRow.insertCell(2);
-    var cell4 = newRow.insertCell(3);
-    var cell5 = newRow.insertCell(4);
+    if (tableData[i].id == currentUser.id) {
+      var newRow = table.insertRow(table.rows.length);
+      var cell1 = newRow.insertCell(0);
+      var cell2 = newRow.insertCell(1);
+      var cell3 = newRow.insertCell(2);
+      var cell4 = newRow.insertCell(3);
+      var cell5 = newRow.insertCell(4);
 
-    // Hücrelere verileri ekle
-    cell1.innerHTML = tableData[i].id;
-    cell2.innerHTML = tableData[i].name;
-    cell3.innerHTML = tableData[i].surname;
-    cell4.innerHTML = tableData[i].sales;
-    cell5.innerHTML = "Onay Bekliyor";
+      cell1.innerHTML = tableData[i].id;
+      cell2.innerHTML = tableData[i].name;
+      cell3.innerHTML = tableData[i].surname;
+      cell4.innerHTML = tableData[i].sales;
+      cell5.innerHTML = "Onay Bekliyor";
+    }
   }
 }
 
@@ -98,7 +111,8 @@ function addContact() {
   let sales = document.getElementById("salesAmount").value;
 
   // Giriş yapan kişiye göre userId'yi ayarla
-  userId = getUserId(enteruserName);
+  const user = JSON.parse(localStorage.getItem("currentUser"));
+  userId = user.id;
 
   //verileri dizi içinde tutmam lazım
   let data = {
@@ -116,21 +130,21 @@ function addContact() {
   // Tabloyu güncelle
   updateTable();
 
-  // Yeni bir tablo satırı oluştur
-  var table = document.getElementById("table").getElementsByTagName("tbody")[0];
-  var newRow = table.insertRow(table.rows.length);
-  var cell1 = newRow.insertCell(0);
-  var cell2 = newRow.insertCell(1);
-  var cell3 = newRow.insertCell(2);
-  var cell4 = newRow.insertCell(3);
-  var cell5 = newRow.insertCell(4);
+  // // Yeni bir tablo satırı oluştur
+  // var table = document.getElementById("table").getElementsByTagName("tbody")[0];
+  // var newRow = table.insertRow(table.rows.length);
+  // var cell1 = newRow.insertCell(0);
+  // var cell2 = newRow.insertCell(1);
+  // var cell3 = newRow.insertCell(2);
+  // var cell4 = newRow.insertCell(3);
+  // var cell5 = newRow.insertCell(4);
 
-  // Hücrelere verileri ekle
-  cell1.innerHTML = userId;
-  cell2.innerHTML = name;
-  cell3.innerHTML = surname;
-  cell4.innerHTML = sales;
-  cell5.innerHTML = "";
+  // // Hücrelere verileri ekle
+  // cell1.innerHTML = userId;
+  // cell2.innerHTML = name;
+  // cell3.innerHTML = surname;
+  // cell4.innerHTML = sales;
+  // cell5.innerHTML = "";
 
   // Formu sıfırla
   document.getElementById("form").reset();
