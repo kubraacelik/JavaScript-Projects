@@ -1,4 +1,12 @@
 # JavaScript-Projects
+## case2 -> Todo List
+In this project, when you enter Todo on the Todo List page, it is listed at the bottom and registered in local storage. We can delete todo's both from the screen and from local storage.
+![Ekran Görüntüsü (357)](https://github.com/kubraacelik/JavaScript-Mini-Projects/assets/101054783/ae5d8a41-43aa-4530-9305-845b3577b789)
+![Ekran Görüntüsü (358)](https://github.com/kubraacelik/JavaScript-Mini-Projects/assets/101054783/332ed8f4-5894-45bc-b2d5-5f73a88f9238)
+ ### We can filter the todo we want to search.
+![Ekran Görüntüsü (360)](https://github.com/kubraacelik/JavaScript-Mini-Projects/assets/101054783/31d00598-6f9e-45fa-9eab-defc87de2679)
+
+
 ## CheckItOut
 In the CheckItOut project, the name and tckn were requested to be entered completely. if and else warned if not entered.
 ![Ekran Görüntüsü (285)](https://github.com/kubraacelik/JavaScript-Mini-Projects/assets/101054783/997ebea1-0324-473d-94e8-4f3bdd78f998)![Ekran Görüntüsü (288)](https://github.com/kubraacelik/JavaScript-Mini-Projects/assets/101054783/dddeca40-d1bd-4787-90bb-ce1d0f0cc1d6)![Ekran Görüntüsü (286)](https://github.com/kubraacelik/JavaScript-Mini-Projects/assets/101054783/0974cb36-11d7-47d2-9b57-65affc943c11)
