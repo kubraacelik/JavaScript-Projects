@@ -19,11 +19,12 @@ function addTodo(e) {
   const inputText = addInput.value.trim();
 
   if (inputText == null || inputText == "") {
-    alert("Lütfen bir değer giriniz!");
+    showAlert("warning", "Lütfen bir değer giriniz!");
   } else {
     //arayüze ekleme
     addTodoUI(inputText);
     addToDoStorage(inputText);
+    showAlert("success", "ToDo başarılı bir şekilde eklendi");
   }
   e.preventDefault(); //başka sayfaya yönlendirmesin
 }
@@ -63,4 +64,19 @@ function checkTodosFromStorage() {
   } else {
     todos = JSON.parse(localStorage.getItem("todos"));
   }
+}
+
+//Bigilendirme mesajı
+function showAlert(type, message) {
+  const div = document.createElement("div");
+
+  div.className = `alert alert-${type}`;
+  div.textContent = message;
+
+  firstCardBody.appendChild(div);
+
+  //2,5 saniye sonra mesaj kaybolsun
+  setTimeout(function () {
+    div.remove();
+  }, 2500);
 }
