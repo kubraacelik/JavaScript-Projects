@@ -5,6 +5,7 @@ const todoList = document.querySelector(".list-group");
 const firstCardBody = document.querySelectorAll(".card-body")[0];
 const secondCardBody = document.querySelectorAll(".card-body")[1];
 const clearButton = document.querySelector("#clearButton");
+const filterInput = document.querySelector("#todoSearch");
 
 let todos = [];
 
@@ -19,6 +20,8 @@ function runEvents() {
   secondCardBody.addEventListener("click", removeToDoToUI);
   //Tüm Todoları temizle butonuna basınca hepsi gitsin
   clearButton.addEventListener("click", allToDosEverywhere);
+  //Todo arayınız input'una girilen değerlerin karşımıza gelmesini sağlar
+  filterInput.addEventListener("keyup", filter);
 }
 
 //Local Storage'de olan verilerim ekrana gelsin
@@ -27,6 +30,27 @@ function pageLoaded() {
   todos.forEach(function (todo) {
     addTodoUI(todo);
   });
+}
+
+//Todo arayınız input'una girilen değerlerin filtrelenmesini sağlar
+function filter(e) {
+  const filterValue = e.target.value.toLowerCase().trim();
+  const todoListesi = document.querySelectorAll(".list-group-item");
+
+  if (todoListesi.length > 0) {
+    todoListesi.forEach(function (todo) {
+      //listenin içinde yazan text'te filtrelemek istediğin kelime varsa
+      if (todo.textContent.toLowerCase().trim().includes(filterValue)) {
+        //o kelimeyi ekranda görünür yap
+        todo.setAttribute("style", "display : block");
+      } else {
+        //o kelimeye uymuyorsa ekranda görünmesin
+        todo.setAttribute("style", "display : none !important");
+      }
+    });
+  } else {
+    showAlert("warning", "Filtreleme yapmak için en az bir todo olmalıdır");
+  }
 }
 
 //Tüm Todo'ları temizler
