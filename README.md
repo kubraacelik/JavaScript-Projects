@@ -16,6 +16,12 @@ In this project, we defined our books in the library. We wrote the shelf where t
 ![Ekran Görüntüsü (350)](https://github.com/kubraacelik/JavaScript-Mini-Projects/assets/101054783/f3a6c9ab-5336-4b8f-9313-c708c6a3d048)
 ![Ekran Görüntüsü (351)](https://github.com/kubraacelik/JavaScript-Mini-Projects/assets/101054783/49c8bfb6-3e8c-442a-aa89-3c75821d7337)
 
+## MoneyCard
+In this project, customers with a money card can buy products with a discount, while those without a money card cannot benefit from the discount.
+![Ekran Görüntüsü (361)](https://github.com/kubraacelik/JavaScript-Mini-Projects/assets/101054783/c2a9c65f-4a0c-4a77-9a69-38ece4e795a9)
+![Ekran Görüntüsü (362)](https://github.com/kubraacelik/JavaScript-Mini-Projects/assets/101054783/4e70dcca-409e-4521-9cf2-1b5baca77865)
+
+
 ## CheckItOut
 In the CheckItOut project, the name and tckn were requested to be entered completely. if and else warned if not entered.
 ![Ekran Görüntüsü (285)](https://github.com/kubraacelik/JavaScript-Mini-Projects/assets/101054783/997ebea1-0324-473d-94e8-4f3bdd78f998)![Ekran Görüntüsü (288)](https://github.com/kubraacelik/JavaScript-Mini-Projects/assets/101054783/dddeca40-d1bd-4787-90bb-ce1d0f0cc1d6)![Ekran Görüntüsü (286)](https://github.com/kubraacelik/JavaScript-Mini-Projects/assets/101054783/0974cb36-11d7-47d2-9b57-65affc943c11)
