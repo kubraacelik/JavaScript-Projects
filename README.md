@@ -1,4 +1,9 @@
 # JavaScript-Projects
+## search-app 
+In this project, when I enter the word I want in the input, it produces images of it. I took the images from Unsplash Developer. I added 2 buttons. The Search button will bring those images when I enter a value in the input. The Clear button will remove both the value in the input and the images on the screen.
+![Ekran Görüntüsü (363)](https://github.com/kubraacelik/JavaScript-Mini-Projects/assets/101054783/14eafc6d-622b-44ab-89a5-3db0c30213d9)
+![Ekran Görüntüsü (364)](https://github.com/kubraacelik/JavaScript-Mini-Projects/assets/101054783/df1acdf9-28b5-485f-a4e1-f43e403a345f)
+
 ## case2 -> Todo List
 In this project, when you enter Todo on the Todo List page, it is listed at the bottom and registered in local storage. We can delete todo's both from the screen and from local storage.
 ![Ekran Görüntüsü (357)](https://github.com/kubraacelik/JavaScript-Mini-Projects/assets/101054783/ae5d8a41-43aa-4530-9305-845b3577b789)
