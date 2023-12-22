@@ -1,4 +1,9 @@
 # JavaScript-Projects
+## currency-rates
+The project provides an interface where the user enters an amount and a choice of two different exchange rates. The user can convert the entered amount between the exchange rates of his choice. The converted result is displayed in an input box at the bottom of the page.
+![Ekran Görüntüsü (365)](https://github.com/kubraacelik/JavaScript-Mini-Projects/assets/101054783/ae10dc7e-3193-471b-ad7c-8cb38ccf13c6)
+![Ekran Görüntüsü (366)](https://github.com/kubraacelik/JavaScript-Mini-Projects/assets/101054783/fa44257f-fb2f-4da8-aae6-81b843c1066f)
+
 ## search-app 
 In this project, when I enter the word I want in the input, it produces images of it. I took the images from Unsplash Developer. I added 2 buttons. The Search button will bring those images when I enter a value in the input. The Clear button will remove both the value in the input and the images on the screen.
 ![Ekran Görüntüsü (363)](https://github.com/kubraacelik/JavaScript-Mini-Projects/assets/101054783/14eafc6d-622b-44ab-89a5-3db0c30213d9)
