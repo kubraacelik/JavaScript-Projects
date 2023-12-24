@@ -1,4 +1,11 @@
 # JavaScript-Projects
+## bookLandia
+In this project, it creates a web page representing a book platform called "BookLandia". The page includes a navigation bar, a slider, a section filtering book categories and a shopping cart modal window. It also leverages outsourced libraries such as Bootstrap and Toastr to strengthen the styling and interactivity features of the page. The page is designed to display books, filter them by categories and manage a shopping cart.
+
+![Ekran Görüntüsü (372)](https://github.com/kubraacelik/JavaScript-Mini-Projects/assets/101054783/996309bd-b0ec-48a3-a809-34bb4aea8f07)
+![Ekran Görüntüsü (373)](https://github.com/kubraacelik/JavaScript-Mini-Projects/assets/101054783/afaa5428-59e4-4448-b2b7-cd0686a4b92f)
+
+
 ## currency-rates
 The project provides an interface where the user enters an amount and a choice of two different exchange rates. The user can convert the entered amount between the exchange rates of his choice. The converted result is displayed in an input box at the bottom of the page.
 
