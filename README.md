@@ -5,7 +5,6 @@ In this project, it creates a web page representing a book platform called "Book
 ![Ekran Görüntüsü (372)](https://github.com/kubraacelik/JavaScript-Mini-Projects/assets/101054783/996309bd-b0ec-48a3-a809-34bb4aea8f07)
 ![Ekran Görüntüsü (373)](https://github.com/kubraacelik/JavaScript-Mini-Projects/assets/101054783/afaa5428-59e4-4448-b2b7-cd0686a4b92f)
 
-
 ## currency-rates
 The project provides an interface where the user enters an amount and a choice of two different exchange rates. The user can convert the entered amount between the exchange rates of his choice. The converted result is displayed in an input box at the bottom of the page.
 
@@ -40,5 +39,9 @@ In this project, we defined our books in the library. We wrote the shelf where t
 ![Ekran Görüntüsü (350)](https://github.com/kubraacelik/JavaScript-Mini-Projects/assets/101054783/f3a6c9ab-5336-4b8f-9313-c708c6a3d048)
 ![Ekran Görüntüsü (351)](https://github.com/kubraacelik/JavaScript-Mini-Projects/assets/101054783/49c8bfb6-3e8c-442a-aa89-3c75821d7337)
 
+## blog-website
+Represents a blog website. There is a navigation bar at the top of the page. This bar contains links that lead to different pages. It contains links to social media platforms such as Twitter, LinkedIn and Medium. There is a list of categories. 
 
-
+![Ekran Görüntüsü (381)](https://github.com/kubraacelik/JavaScript-Projects/assets/101054783/d4add26a-9d64-43fa-9be4-ae68569adde9)
+![Ekran Görüntüsü (382)](https://github.com/kubraacelik/JavaScript-Projects/assets/101054783/ea939699-7ba6-450f-adf2-6a15ef8b364e)
+![Ekran Görüntüsü (384)](https://github.com/kubraacelik/JavaScript-Projects/assets/101054783/cb00707f-dfb4-4515-baa3-8fc5e518b596)
