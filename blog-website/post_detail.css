@@ -1,0 +1,73 @@
+* {
+  font-family: "Montserrat", sans-serif;
+}
+
+.app__showcase .app__showcase-info h3 {
+  font-size: 52px;
+  margin: 0;
+  color: #424242;
+}
+
+.post__detail-container {
+  margin-top: 5rem;
+}
+
+.post__detail-container .post_detail-image {
+  width: 100%;
+  height: 600px;
+}
+
+.post__detail-container h1,
+h2,
+h3 {
+  font-size: 42px;
+  color: #3a0ca3;
+  font-weight: 500;
+  margin-top: 5rem;
+  margin-bottom: 3rem;
+}
+
+.post__detail-container h2 {
+  font-size: 36px;
+}
+
+.post__detail-container h3 {
+  font-size: 24px;
+}
+
+.post__detail-container p {
+  font-weight: 500;
+  font-size: 24px;
+}
+
+@media only screen and (max-width: 850px) {
+  .post__detail-container {
+    margin-top: 0;
+  }
+
+  .post__detail-container .post_detail-image {
+    width: 100%;
+    height: 350px;
+  }
+
+  .post__detail-container h1,
+  h2,
+  h3 {
+    font-size: 20px;
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+    text-align: center;
+  }
+
+  .post__detail-container h2 {
+    font-size: 18px;
+  }
+
+  .post__detail-container h3 {
+    font-size: 16px;
+  }
+
+  .post__detail-container p {
+    font-size: 14px;
+  }
+}
