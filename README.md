@@ -5,6 +5,14 @@ In this project, it creates a web page representing a book platform called "Book
 ![Ekran Görüntüsü (372)](https://github.com/kubraacelik/JavaScript-Mini-Projects/assets/101054783/996309bd-b0ec-48a3-a809-34bb4aea8f07)
 ![Ekran Görüntüsü (373)](https://github.com/kubraacelik/JavaScript-Mini-Projects/assets/101054783/afaa5428-59e4-4448-b2b7-cd0686a4b92f)
 
+## cinemaJunction
+With Netflix in mind, movies are divided into Popular, Hot, New Releases. Clicking on the arrows on the page will scroll the movie list horizontally. At the same time, it can be used as dark mode and normal mode according to user request. A toggle mechanism is used to turn this mode on or off.
+
+![Ekran Görüntüsü (390)](https://github.com/kubraacelik/JavaScript-Projects/assets/101054783/f5fcccb3-7fe3-48bd-a5de-a69ed47b5515)
+![Ekran Görüntüsü (391)](https://github.com/kubraacelik/JavaScript-Projects/assets/101054783/8acc3f8f-7a62-4687-8d40-609730334400)
+![Ekran Görüntüsü (393)](https://github.com/kubraacelik/JavaScript-Projects/assets/101054783/3a444211-8a46-42d1-a88d-1318c3676f5e)
+
+
 ## currency-rates
 The project provides an interface where the user enters an amount and a choice of two different exchange rates. The user can convert the entered amount between the exchange rates of his choice. The converted result is displayed in an input box at the bottom of the page.
 
