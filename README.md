@@ -41,7 +41,7 @@ In this project, when I enter the word I want in the input, it produces images o
 ![Ekran Görüntüsü (363)](https://github.com/kubraacelik/JavaScript-Mini-Projects/assets/101054783/14eafc6d-622b-44ab-89a5-3db0c30213d9)
 ![Ekran Görüntüsü (364)](https://github.com/kubraacelik/JavaScript-Mini-Projects/assets/101054783/df1acdf9-28b5-485f-a4e1-f43e403a345f)
 
-## case2 -> Todo List
+## case1 -> Todo List
 In this project, when you enter Todo on the Todo List page, it is listed at the bottom and registered in local storage. We can delete todo's both from the screen and from local storage.
 
 ![Ekran Görüntüsü (357)](https://github.com/kubraacelik/JavaScript-Mini-Projects/assets/101054783/ae5d8a41-43aa-4530-9305-845b3577b789)
