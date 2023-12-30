@@ -1,4 +1,12 @@
 # JavaScript-Projects
+## auto-gallery-project
+The aim of this project is to create a web application that allows users to add vehicles to a car gallery, list added vehicles, delete existing vehicles and clean all vehicles. Local Storage is used to store user-added tools locally in the browser. This preserves the added tool information even when the page is refreshed or closed. Used a UI class for user interface operations. Event listeners are used to listen to user interactions and take actions accordingly.
+
+![Ekran Görüntüsü (396)](https://github.com/kubraacelik/JavaScript-Projects/assets/101054783/612a330c-ace2-4441-88e0-1ffee209485f)
+![Ekran Görüntüsü (398)](https://github.com/kubraacelik/JavaScript-Projects/assets/101054783/451f6471-8128-4ebc-8948-1c56d586de17)
+![Ekran Görüntüsü (399)](https://github.com/kubraacelik/JavaScript-Projects/assets/101054783/ef95be85-e99d-424e-ade5-e1a9d6987c89)
+![Ekran Görüntüsü (400)](https://github.com/kubraacelik/JavaScript-Projects/assets/101054783/59ecb936-fe59-4436-85e7-cd48dbf6e2b5)
+
 ## bookLandia
 In this project, a web page representing a book platform called "BookLandia" was created. The data previously added to the Product.Json file was pulled. The page features a navigation bar, a slider, a section filtering book categories and a shopping cart modal window. It also makes use of outsourced libraries such as Bootstrap and Toastr to strengthen the styling and interactivity of the page. The page is designed to display books, filter them by categories and manage a shopping cart.
 
