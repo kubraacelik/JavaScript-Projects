@@ -7,6 +7,15 @@ The aim of this project is to create a web application that allows users to add 
 ![Ekran Görüntüsü (399)](https://github.com/kubraacelik/JavaScript-Projects/assets/101054783/ef95be85-e99d-424e-ade5-e1a9d6987c89)
 ![Ekran Görüntüsü (400)](https://github.com/kubraacelik/JavaScript-Projects/assets/101054783/59ecb936-fe59-4436-85e7-cd48dbf6e2b5)
 
+## shoppingCard
+This project is a furniture e-commerce website built using HTML, CSS and JavaScript. When the page loads, product data from a mock API is displayed on the page. Each product is displayed on a card with an image, title, price and an add to cart button. The product is added to the cart by clicking the "Add to Cart" button below each product card. If a product has already been added, the button is disabled and made transparent. The contents of the cart are displayed by clicking on the cart icon. Each product is displayed with a picture, title, price, price, quantity edit buttons and a remove button. The relevant buttons can be used to increase, decrease or delete the quantity of each product. All products can be removed from the cart with the clear cart button. For each transaction in the cart, the total amount and the total number of products are updated. This information is automatically updated every time a product is added or removed or its quantity in the cart is updated. Product data and cart information is stored in the browser using Local Storage. When the page is refreshed or closed, the products and cart information added by the user are retained.
+
+![Ekran Görüntüsü (401)](https://github.com/kubraacelik/JavaScript-Projects/assets/101054783/04d9c5f6-0ec9-4ed8-9903-b71fe695ddde)
+![Ekran Görüntüsü (402)](https://github.com/kubraacelik/JavaScript-Projects/assets/101054783/52b10568-76f6-4565-a860-b8e6b5ec4843)
+![Ekran Görüntüsü (403)](https://github.com/kubraacelik/JavaScript-Projects/assets/101054783/bd3f148b-f059-42a6-86de-49c0bba8551d)
+![Ekran Görüntüsü (404)](https://github.com/kubraacelik/JavaScript-Projects/assets/101054783/79f4d3d3-985e-428f-9080-3b863e05867c)
+
+
 ## bookLandia
 In this project, a web page representing a book platform called "BookLandia" was created. The data previously added to the Product.Json file was pulled. The page features a navigation bar, a slider, a section filtering book categories and a shopping cart modal window. It also makes use of outsourced libraries such as Bootstrap and Toastr to strengthen the styling and interactivity of the page. The page is designed to display books, filter them by categories and manage a shopping cart.
 
@@ -19,7 +28,6 @@ With Netflix in mind, movies are divided into Popular, Hot, New Releases. Clicki
 ![Ekran Görüntüsü (390)](https://github.com/kubraacelik/JavaScript-Projects/assets/101054783/f5fcccb3-7fe3-48bd-a5de-a69ed47b5515)
 ![Ekran Görüntüsü (391)](https://github.com/kubraacelik/JavaScript-Projects/assets/101054783/8acc3f8f-7a62-4687-8d40-609730334400)
 ![Ekran Görüntüsü (393)](https://github.com/kubraacelik/JavaScript-Projects/assets/101054783/3a444211-8a46-42d1-a88d-1318c3676f5e)
-
 
 ## currency-rates
 The project provides an interface where the user enters an amount and a choice of two different exchange rates. The user can convert the entered amount between the exchange rates of his choice. The converted result is displayed in an input box at the bottom of the page.
