@@ -50,6 +50,7 @@ class UI {
     </div>
         `;
     });
+
     productsDOM.innerHTML = result;
   }
 
