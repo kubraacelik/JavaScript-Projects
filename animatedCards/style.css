@@ -43,7 +43,7 @@ body {
 }
 
 .panel.active {
-  flex: 5;
+  flex: 3;
 }
 
 .panel.active h3 {
