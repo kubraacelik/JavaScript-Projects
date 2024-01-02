@@ -41,6 +41,14 @@ In this project, when I enter the word I want in the input, it produces images o
 ![Ekran Görüntüsü (363)](https://github.com/kubraacelik/JavaScript-Mini-Projects/assets/101054783/14eafc6d-622b-44ab-89a5-3db0c30213d9)
 ![Ekran Görüntüsü (364)](https://github.com/kubraacelik/JavaScript-Mini-Projects/assets/101054783/df1acdf9-28b5-485f-a4e1-f43e403a345f)
 
+## animatedProgressSteps
+This project was made to control and update the animated progress bar that moves step by step. When the Next button is clicked, the currentActive value is incremented and then the progress bar and circles are updated. If on the last step (currentActive at maximum), the currentActive value is fixed to the last step. Clicking Prev decreases the currentActive value and then updates the progress bar and circles. If in the first step (currentActive at minimum), the currentActive value is fixed to 1.
+
+![Ekran Görüntüsü (414)](https://github.com/kubraacelik/JavaScript-Projects/assets/101054783/3ed29f03-ac53-4829-8c9d-3ba5251c4249)
+![Ekran Görüntüsü (416)](https://github.com/kubraacelik/JavaScript-Projects/assets/101054783/527281bb-8c2b-4d8d-a16b-b04173d174da)
+![Ekran Görüntüsü (417)](https://github.com/kubraacelik/JavaScript-Projects/assets/101054783/cd1eafef-5220-4cd5-8d07-214cdd232e83)
+
+
 ## case1 -> Todo List
 In this project, when you enter Todo on the Todo List page, it is listed at the bottom and registered in local storage. We can delete todo's both from the screen and from local storage.
 
