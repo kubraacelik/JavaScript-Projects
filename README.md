@@ -56,6 +56,12 @@ Users can enter and add contact information, update existing information or dele
 
 ![Ekran Görüntüsü (323)](https://github.com/kubraacelik/JavaScript-Mini-Projects/assets/101054783/cab595ab-9f34-4f30-93b5-54c522f857a5)
 
+## animatedCards
+This project provides a basic structure for a project of animated cards. Each card represents a city in the project. When you run the project, animated cards will appear on the page and you will be able to switch between them. When you hover or click on the cards, they will transition between cards with certain effects.
+
+![Ekran Görüntüsü (412)](https://github.com/kubraacelik/JavaScript-Projects/assets/101054783/af005cad-8af5-45b2-a023-80f73ebe3e13)
+![Ekran Görüntüsü (413)](https://github.com/kubraacelik/JavaScript-Projects/assets/101054783/69824185-534f-4090-9eea-11a794828c98)
+
 ## bookFinderApp
 In this project, we defined our books in the library. We wrote the shelf where the books are located. The user will type the name of the book they want and the console will show which shelf it is on.
 
