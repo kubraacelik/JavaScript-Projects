@@ -48,6 +48,11 @@ This project was made to control and update the animated progress bar that moves
 ![Ekran Görüntüsü (416)](https://github.com/kubraacelik/JavaScript-Projects/assets/101054783/527281bb-8c2b-4d8d-a16b-b04173d174da)
 ![Ekran Görüntüsü (417)](https://github.com/kubraacelik/JavaScript-Projects/assets/101054783/cd1eafef-5220-4cd5-8d07-214cdd232e83)
 
+## animatedMenu
+It represents a web page with an animated menu, a navigation bar with Font Awesome icons and a main content area with text, images and a header. It manages a simple JavaScript interaction to open and close an animated menu on the page. The "open" and "close" button click events control the visibility of the animated menu by adding or removing the "show-nav" class. This way, when users click on the "open" button the menu becomes visible and when they click on the "close" button the menu is hidden.
+
+![Ekran Görüntüsü (418)](https://github.com/kubraacelik/JavaScript-Projects/assets/101054783/1a38ea53-a292-4b10-9aac-890253f34734)
+![Ekran Görüntüsü (419)](https://github.com/kubraacelik/JavaScript-Projects/assets/101054783/9003567d-2f8b-4fed-b700-ae49db045d5c)
 
 ## case1 -> Todo List
 In this project, when you enter Todo on the Todo List page, it is listed at the bottom and registered in local storage. We can delete todo's both from the screen and from local storage.
