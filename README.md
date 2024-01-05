@@ -13,6 +13,13 @@ This project is being used to enable click activation of the search box and keyb
 ![Ekran Görüntüsü (420)](https://github.com/kubraacelik/JavaScript-Projects/assets/101054783/d82e793d-8ffe-4024-bfb4-179fb0e4b032)
 ![Ekran Görüntüsü (421)](https://github.com/kubraacelik/JavaScript-Projects/assets/101054783/8d83fa31-5ba8-49e1-b177-5e43362f9b89)
 
+## animatedLoadingScreen
+This project represents a web project that generates an animated loading screen. It presents a page that, when opened in the browser, shows "0%" loading text along with a background. The code specified in the JavaScript file can create an animated loading screen by updating the loading text over time. The CSS file determines the background and text style.
+
+![Ekran Görüntüsü (422)](https://github.com/kubraacelik/JavaScript-Projects/assets/101054783/542fb99a-d06b-4edd-84ef-0f636639cd78)
+![Ekran Görüntüsü (425)](https://github.com/kubraacelik/JavaScript-Projects/assets/101054783/ef2f30a6-325d-4460-a7e4-bd51ec4dd843)
+![Ekran Görüntüsü (424)](https://github.com/kubraacelik/JavaScript-Projects/assets/101054783/d00643a6-57ae-4a9c-9ce0-6f2e5621e93f)
+
 ## shoppingCard
 This project is a furniture e-commerce website built using HTML, CSS and JavaScript. When the page loads, product data from a mock API is displayed on the page. Each product is displayed on a card with an image, title, price and an add to cart button. The product is added to the cart by clicking the "Add to Cart" button below each product card. If a product has already been added, the button is disabled and made transparent. The contents of the cart are displayed by clicking on the cart icon. Each product is displayed with a picture, title, price, price, quantity edit buttons and a remove button. The relevant buttons can be used to increase, decrease or delete the quantity of each product. All products can be removed from the cart with the clear cart button. For each transaction in the cart, the total amount and the total number of products are updated. This information is automatically updated every time a product is added or removed or its quantity in the cart is updated. Product data and cart information is stored in the browser using Local Storage. When the page is refreshed or closed, the products and cart information added by the user are retained.
 
