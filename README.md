@@ -66,6 +66,11 @@ It represents a web page with an animated menu, a navigation bar with Font Aweso
 ![Ekran Görüntüsü (418)](https://github.com/kubraacelik/JavaScript-Projects/assets/101054783/1a38ea53-a292-4b10-9aac-890253f34734)
 ![Ekran Görüntüsü (419)](https://github.com/kubraacelik/JavaScript-Projects/assets/101054783/9003567d-2f8b-4fed-b700-ae49db045d5c)
 
+## animatedScroll
+This project includes an animation function that, by controlling div elements with the "box" class on the page, adds or removes a class when these elements are in the visible part of the page. This type of interaction typically occurs when the page is scrolled down by the user. The getBoundingClientRect() method returns the size of an element and its position in the viewport. The triggerBottom variable sets a trigger value based on the visible height of the page being a certain percentage above the bottom.
+
+![Ekran Görüntüsü (426)](https://github.com/kubraacelik/JavaScript-Projects/assets/101054783/ba285d76-e768-44bc-9686-c48d5d9f5382)
+
 ## case1 -> Todo List
 In this project, when you enter Todo on the Todo List page, it is listed at the bottom and registered in local storage. We can delete todo's both from the screen and from local storage.
 
